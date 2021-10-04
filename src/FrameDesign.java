@@ -31,6 +31,7 @@ public class FrameDesign implements Interface {
         jframe.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
+                JOptionPane.showMessageDialog(null,"The random-number is "+guessButton.getR());
                 System.exit(0);
             }
         });

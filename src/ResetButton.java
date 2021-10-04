@@ -9,14 +9,16 @@
  *
  */
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ResetButton implements Interface {
-    int cnt = 5;
+    private int n = 1;
+    private int cnt = 0;
 
-    public void setCnt(int cnt) {
-        this.cnt = cnt;
+    public int getCnt() {
+        return cnt;
     }
 
     public void action() {
@@ -25,9 +27,15 @@ public class ResetButton implements Interface {
         reset.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                guessButton.setI(cnt);
+                if(guessButton.getS()%guessButton.getI()==0) {
+                    guessButton.setI(n);
+                    cnt++;
+                }
+                else
+                    JOptionPane.showMessageDialog(null,"chance is not use up!Please is continue!");
+
             }
         });
-//        return cnt;
+
     }
 }

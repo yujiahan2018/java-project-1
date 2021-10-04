@@ -25,6 +25,8 @@ public interface Interface {
     GuessButton guessButton = new GuessButton();
     ExitButton exitButton = new ExitButton();
 
+//    RandomNumber randomNumber = new RandomNumber();
+
     Button guess = new Button("Guess");
     Button exit = new Button("exit");
     Button reset = new Button("reset");
