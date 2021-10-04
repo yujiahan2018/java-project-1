@@ -40,12 +40,12 @@ public class GuessButton implements Interface {//按钮动作
 
     public void action() {
         try {
-            while (i<=0)
+            while (i<=0||i>=100)
             {
                 String string = JOptionPane.showInputDialog(jframe, "输入猜的次数", "输入对话框", JOptionPane.PLAIN_MESSAGE);
                 i = Integer.parseInt(string);
                 System.out.println(i);
-                if(i<=0) JOptionPane.showMessageDialog(null, "输入有误！");
+                if(i<=0||i>=100) JOptionPane.showMessageDialog(null, "输入有误！");
             }
         } catch (Exception e1) {
             JOptionPane.showMessageDialog(null, "输入有误！");
@@ -86,10 +86,6 @@ public class GuessButton implements Interface {//按钮动作
 
                         }
 
-                        System.out.println("i:" + i);
-                        System.out.println("s:" + s);
-                        System.out.println("i-s:" + (i-s));
-                        System.out.println(r);
                         s++;
 
                     }

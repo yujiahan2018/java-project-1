@@ -21,7 +21,6 @@ public class FrameDesign implements Interface {
 
         jframe.setResizable(false);
         jframe.setLocationRelativeTo(null);//窗口居中显示
-//        jframe.p
         jframe.setVisible(true);
 
     }
@@ -31,7 +30,7 @@ public class FrameDesign implements Interface {
         jframe.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                JOptionPane.showMessageDialog(null,"The random-number is "+guessButton.getR());
+                JOptionPane.showMessageDialog(null,"The random-number is " + guessButton.getR());
                 System.exit(0);
             }
         });
