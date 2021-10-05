@@ -28,11 +28,11 @@ public class ResetButton implements Interface {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(guessButton.getS()%guessButton.getI()==0) {
-                    guessButton.setI(n);
+                    guessButton.setS(n);
                     cnt++;
                 }
                 else
-                    JOptionPane.showMessageDialog(null,"chance is not use up!Please is continue!");
+                    JOptionPane.showMessageDialog(null,"chance is not use up!\nPlease is continue!");
 
             }
         });

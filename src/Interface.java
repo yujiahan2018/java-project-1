@@ -20,6 +20,8 @@ public interface Interface {
     //    BorderLayout borderLayout = new BorderLayout();//边界布局
 //    GridLayout gridLayout = new GridLayout(3,3);//流式布局
     TextField textFieldNmb = new TextField();
+    JOptionPane count = new JOptionPane();
+    JOptionPane message = new JOptionPane();
     Label textLabelNmb = new Label("Please input your guess number:");
     ResetButton resetButton = new ResetButton();
     GuessButton guessButton = new GuessButton();

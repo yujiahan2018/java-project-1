@@ -13,6 +13,6 @@ import javax.swing.*;
 
 public class GameExplain {
     public void explain() {
-        JOptionPane.showMessageDialog(null, "guess number in 100");
+        JOptionPane.showMessageDialog(null, "guess number in 1~99(For int)");
     }
 }
