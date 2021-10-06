@@ -2,8 +2,6 @@ import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-import static java.awt.FlowLayout.CENTER;
-
 abstract class Window implements Interface{
     public void layout() {
 

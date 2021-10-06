@@ -57,7 +57,7 @@ public class GuessButton implements Interface {//按钮动作
                     } else {
                         if (Integer.parseInt(textFieldNmb.getText())<=0 ||
                                 Integer.parseInt(textFieldNmb.getText())>=100)
-                            message.showMessageDialog(null, "输入有误！");
+                            JOptionPane.showMessageDialog(null, "输入有误！");
                         else {
                             cnt = resetButton.getCnt();
                             if (r == Integer.parseInt(textFieldNmb.getText())) {
