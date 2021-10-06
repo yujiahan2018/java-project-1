@@ -13,27 +13,20 @@ import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class FrameDesign implements Interface {
+import static java.awt.FlowLayout.CENTER;
 
-    public void createFrame(JFrame jframe) {
-        jframe.setTitle("Guess game");
-        jframe.setBounds(0, 0, 300, 100);
+public class FrameDesign extends Window implements Interface {
 
-        jframe.setResizable(false);
-        jframe.setLocationRelativeTo(null);//窗口居中显示
-        jframe.setVisible(true);
+    public void layout() {
+        flowLayout.setAlignment(CENTER);
+        panel.setLayout(flowLayout);
 
+        panel.add(textLabelNmb);
+        textFieldNmb.setColumns(10);//NMB
+        panel.add(textFieldNmb);
+
+        jframe.add(panel);
     }
 
-
-    public void close(JFrame jframe) {
-        jframe.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                JOptionPane.showMessageDialog(null,"The random-number is " + guessButton.getR());
-                System.exit(0);
-            }
-        });
-
-    }
 }
+

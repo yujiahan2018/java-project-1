@@ -9,15 +9,15 @@
  *
  */
 
-public class Windows implements Interface {
+public class SoftwareBody implements Interface {
 
     public void run() {
         copyrightStatement.copyright();//版权声明
         gameExplain.explain();//游戏说明
 
-        frameDesign.createFrame(jframe);//创建窗体
-        nmb.create();//创建控件
-        frameDesign.close(jframe);//窗体关闭
+        frameDesign.createFrame();//创建窗体
+        frameDesign.layout();//创建控件
+        frameDesign.close();//窗体关闭
 
         resetButton.action();//reset按钮
         guessButton.action();//guess按钮

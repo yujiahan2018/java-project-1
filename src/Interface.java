@@ -33,7 +33,6 @@ public interface Interface {
     Button exit = new Button("exit");
     Button reset = new Button("reset");
     FrameDesign frameDesign = new FrameDesign();
-    Nmb nmb = new Nmb();
 
     CopyrightStatement copyrightStatement = new CopyrightStatement();
     GameExplain gameExplain = new GameExplain();
