@@ -17,26 +17,40 @@ public interface Interface {
     JFrame jframe = new JFrame();
     Panel panel = new Panel();
     FlowLayout flowLayout = new FlowLayout();//流式布局
-    //    BorderLayout borderLayout = new BorderLayout();//边界布局
-//    GridLayout gridLayout = new GridLayout(3,3);//流式布局
+
     TextField textFieldNmb = new TextField();
-    JOptionPane count = new JOptionPane();
     JOptionPane message = new JOptionPane();
     Label textLabelNmb = new Label("Please input your guess number:");
     ResetButton resetButton = new ResetButton();
     GuessButton guessButton = new GuessButton();
-    ExitButton exitButton = new ExitButton();
+    ExitButton_Num exitButton_NUM = new ExitButton_Num();
 
-//    RandomNumber randomNumber = new RandomNumber();
+
+    JFrame JframeCNT = new JFrame();
 
     Button guess = new Button("Guess");
-    Button exit = new Button("exit");
+    Button exitnub = new Button("exit");
     Button reset = new Button("reset");
-    FrameDesign frameDesign = new FrameDesign();
 
+    Window window = new Window();
+    Window windowCNT = new Window();
+
+    GuessnubDialog guessnubDialog = new GuessnubDialog();
+    GuesscntDialog guesscntDialog = new GuesscntDialog();
     CopyrightStatement copyrightStatement = new CopyrightStatement();
     GameExplain gameExplain = new GameExplain();
 
-//    JDialog dialog = new JDialog(jframe,"input");//自定义对话框
+    ContinueButton continueButton = new ContinueButton();
+    Button ctinu = new Button("contiue");
+    Button exitcnt = new Button("exit");
+    ExitButton_Cnt exitButton_CNT = new ExitButton_Cnt();
 
+
+
+    TextField textFieldcnt = new TextField();
+    Label textLabelcnt = new Label("please input cnt" +
+            "-number in 1~99(from int)");
+    JFrame jframeCNT = new JFrame();
+    Panel panelCNT = new Panel();
+//    GuesscntDialog guesscntDialog = new GuesscntDialog();
 }

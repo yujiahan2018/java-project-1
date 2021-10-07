@@ -13,21 +13,26 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ResetButton implements Interface {
-    private int n = 1;
+public class ResetButton extends ButtonDefine implements Interface {
+    private int n = 0;
     private int cnt = 0;
 
     public int getCnt() {
         return cnt;
     }
 
+    @Override
     public void action() {
         panel.add(reset);
 
         reset.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(guessButton.getS()%guessButton.getI()==0) {
+
+                if(guessButton.getI()-guessButton.getS()<=0) {
+                    JOptionPane.showMessageDialog(null,"Reset succeed！\nPlease continue " +
+                            "game！\n" +
+                            "Have a good time!");
                     guessButton.setS(n);
                     cnt++;
                 }
