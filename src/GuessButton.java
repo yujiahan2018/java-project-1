@@ -49,7 +49,7 @@ public class GuessButton extends ButtonDefine implements Interface {//按钮动�
             public void actionPerformed(ActionEvent e) {
                 try {
 
-                    if (Integer.parseInt(textFieldNmb.getText())<=0 ||
+                    if (Integer.parseInt(textFieldNmb.getText())<0 ||
                             Integer.parseInt(textFieldNmb.getText())>=100) {
                         message.showMessageDialog(null, "输入有误！");
 //                        JOptionPane.showMessageDialog(null, "友情提示:你的剩余次数还有 " + (i - s) +
