@@ -48,8 +48,7 @@ public interface Interface {
 
 
     TextField textFieldcnt = new TextField();
-    Label textLabelcnt = new Label("please input cnt" +
-            "-number is positive integer(>=1,int)");
+    Label textLabelcnt = new Label("How many opportunities do you want in game");
     JFrame jframeCNT = new JFrame();
     Panel panelCNT = new Panel();
 }
