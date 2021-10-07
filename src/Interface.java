@@ -49,8 +49,7 @@ public interface Interface {
 
     TextField textFieldcnt = new TextField();
     Label textLabelcnt = new Label("please input cnt" +
-            "-number in 1~99(from int)");
+            "-number is positive integer(>=1,int)");
     JFrame jframeCNT = new JFrame();
     Panel panelCNT = new Panel();
-//    GuesscntDialog guesscntDialog = new GuesscntDialog();
 }
