@@ -35,8 +35,8 @@
 
 #### 博客网址
 
-1.码云主页：https://gitee.com/yujiahan_biancheng/java-project-1/
-2.力扣主页：https://leetcode-cn.com/u/yujiahan_biancheng2001/
+1. 码云主页：https://gitee.com/yujiahan_biancheng/java-project-1/
+2. 力扣主页：https://leetcode-cn.com/u/yujiahan_biancheng2001/
 
 #### 其他
 
