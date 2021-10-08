@@ -6,7 +6,7 @@ public class ExitButton_Num extends ButtonDefine implements Interface {
 
     @Override
     public void action() {
-        panel.add(exitnub);
+        panelNUM.add(exitnub);
 
         exitnub.addActionListener(new ActionListener() {
             @Override

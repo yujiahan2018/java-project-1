@@ -23,7 +23,7 @@ public class ResetButton extends ButtonDefine implements Interface {
 
     @Override
     public void action() {
-        panel.add(reset);
+        panelNUM.add(reset);
 
         reset.addActionListener(new ActionListener() {
             @Override

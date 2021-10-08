@@ -42,7 +42,7 @@ public class GuessButton extends ButtonDefine implements Interface {//按钮动�
     @Override
     public void action() {
         continueButton.action();
-        panel.add(guess);
+        panelNUM.add(guess);
 
         guess.addActionListener(new ActionListener() {
             @Override
@@ -51,9 +51,7 @@ public class GuessButton extends ButtonDefine implements Interface {//按钮动�
 
                     if (Integer.parseInt(textFieldNmb.getText())<0 ||
                             Integer.parseInt(textFieldNmb.getText())>=100) {
-                        message.showMessageDialog(null, "输入有误！");
-//                        JOptionPane.showMessageDialog(null, "友情提示:你的剩余次数还有 " + (i - s) +
-//                                " 次,祝你好运");
+                        JOptionPane.showMessageDialog(null, "输入有误！");
                     }
                     else {
                         s++;
@@ -66,9 +64,6 @@ public class GuessButton extends ButtonDefine implements Interface {//按钮动�
                         }
 
                         if (i - s > 0) {
-
-
-//                        else {
                             cnt = resetButton.getCnt();
 
                             if (r == Integer.parseInt(textFieldNmb.getText())) {
@@ -90,13 +85,7 @@ public class GuessButton extends ButtonDefine implements Interface {//按钮动�
                                         " 次,祝你好运");
 
                             }
-
                         }
-//                        }
-//                        System.out.println(i);
-//                        System.out.println(s);
-//                        System.out.println();
-
                     }
 
                 } catch (Exception x) {

@@ -14,41 +14,40 @@ import java.awt.*;
 
 
 public interface Interface {
-    JFrame jframe = new JFrame();
-    Panel panel = new Panel();
-    FlowLayout flowLayout = new FlowLayout();//流式布局
+    JFrame jframeNUM = new JFrame();
+    JFrame jframeCNT = new JFrame();
 
-    TextField textFieldNmb = new TextField();
-    JOptionPane message = new JOptionPane();
-    Label textLabelNmb = new Label("Please input your guess number:");
-    ResetButton resetButton = new ResetButton();
-    GuessButton guessButton = new GuessButton();
-    ExitButton_Num exitButton_NUM = new ExitButton_Num();
-
-
-    JFrame JframeCNT = new JFrame();
+    Panel panelNUM = new Panel();
+    Panel panelCNT = new Panel();
 
     Button guess = new Button("Guess");
     Button exitnub = new Button("exit");
     Button reset = new Button("reset");
+    Button ctinu = new Button("contiue");
+    Button exitcnt = new Button("exit");
 
-    Window window = new Window();
+    ContinueButton continueButton = new ContinueButton();
+    ResetButton resetButton = new ResetButton();
+    GuessButton guessButton = new GuessButton();
+    ExitButton_Num exitButton_NUM = new ExitButton_Num();
+    ExitButton_Cnt exitButton_CNT = new ExitButton_Cnt();
+
+    Window windowNUM = new Window();
     Window windowCNT = new Window();
 
     GuessnubDialog guessnubDialog = new GuessnubDialog();
     GuesscntDialog guesscntDialog = new GuesscntDialog();
-    CopyrightStatement copyrightStatement = new CopyrightStatement();
+
+    TextField textFieldNmb = new TextField();
+    TextField textFieldcnt = new TextField();
+
+    Label textLabelNmb = new Label("Please input your guess number:");
+    Label textLabelcnt = new Label("How many opportunities do you want in game");
+
+    FlowLayout flowLayout = new FlowLayout();//流式布局
+
     GameExplain gameExplain = new GameExplain();
 
-    ContinueButton continueButton = new ContinueButton();
-    Button ctinu = new Button("contiue");
-    Button exitcnt = new Button("exit");
-    ExitButton_Cnt exitButton_CNT = new ExitButton_Cnt();
+    CopyrightStatement copyrightStatement = new CopyrightStatement();
 
-
-
-    TextField textFieldcnt = new TextField();
-    Label textLabelcnt = new Label("How many opportunities do you want in game");
-    JFrame jframeCNT = new JFrame();
-    Panel panelCNT = new Panel();
 }

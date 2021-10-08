@@ -19,13 +19,13 @@ public class FrameDesign extends Window implements Interface {
 
     public void layout() {
         flowLayout.setAlignment(CENTER);
-        panel.setLayout(flowLayout);
+        panelNUM.setLayout(flowLayout);
 
-        panel.add(textLabelNmb);
+        panelNUM.add(textLabelNmb);
         textFieldNmb.setColumns(10);//NMB
-        panel.add(textFieldNmb);
+        panelNUM.add(textFieldNmb);
 
-        jframe.add(panel);
+        jframeNUM.add(panelNUM);
     }
 
 }

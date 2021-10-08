@@ -16,7 +16,7 @@ public class SoftwareBody implements Interface {
         gameExplain.explain();//游戏说明
 
         guesscntDialog.create();
-        jframe.pack();
+        jframeNUM.pack();
 
 
     }
