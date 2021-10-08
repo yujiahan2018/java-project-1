@@ -13,9 +13,7 @@ public class RandomNumber {//生成随机数
     private final int random = (int) (Math.random() * 100);
 
     public int getRandom() {
-        System.out.println(random);
         return random;
-
     }
 
 }

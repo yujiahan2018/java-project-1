@@ -3,8 +3,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ContinueButton extends ButtonDefine implements Interface{
-    String string;
-    int i;
+    private String string;
+    private int i;
     @Override
     public void action() {
         panelCNT.add(ctinu);

@@ -16,8 +16,8 @@ import java.awt.event.ActionListener;
 public class GuessButton extends ButtonDefine implements Interface {//按钮动作
     private int i;
     private int s;
-    int cnt=0;
-    int r = new RandomNumber().getRandom();
+    private int cnt=0;
+    private int r = new RandomNumber().getRandom();
 
     public int getR() {
         return r;

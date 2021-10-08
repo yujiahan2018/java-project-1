@@ -5,7 +5,7 @@ import java.awt.event.WindowEvent;
 import static java.awt.FlowLayout.CENTER;
 
 class Window implements Interface{
-    boolean flag = true;
+    private boolean flag = true;
 
     public void setFlag(boolean flag) {
         this.flag = flag;
