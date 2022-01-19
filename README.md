@@ -33,6 +33,7 @@
 2. 提交代码
 3. 维护迭代代码
 
+
 #### 博客网址
 
 1. 码云主页：https://gitee.com/yujiahan_biancheng/java-project-1/
@@ -40,7 +41,7 @@
 
 #### 其他
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+1.  **如有bug请在issue中以正确的提交形式提交（未以要求形式提交，将视情况进行删除或修改）** 
 2. Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
 3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
 4. [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
