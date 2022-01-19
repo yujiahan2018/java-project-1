@@ -3,8 +3,7 @@
 #### 介绍
 
 猜数游戏（100以内）开发版
-#### 本分支涉及技术
-lamada表达式
+
 #### 软件涉及技术要点
 
 + swing与awt基本知识（创建窗体、控件、设置动作）
@@ -26,22 +25,23 @@ lamada表达式
 
 #### 使用说明
 
-安装jre后请直接运行jar文件，本次更迭程序使用了Lambda，运行环境必须是JRE8或以上（默认JRE8），程序在JRE8环境下可正常运行，使用时请确保运行环境已正确配置
+安装jre后请直接运行jar文件，为了尽可能兼容，运行环境默认JRE8，请确保运行环境已正确配置
 
 #### 参与贡献
 
 1. 新建 master 分支
 2. 提交代码
-3. 更迭维护代码
+3. 维护迭代代码
+
 
 #### 博客网址
 
-1. 码云主页：https://gitee.com/yujiahan_biancheng/java-project-1/ 
+1. 码云主页：https://gitee.com/yujiahan_biancheng/java-project-1/
 2. 力扣主页：https://leetcode-cn.com/u/yujiahan_biancheng2001/
 
 #### 其他
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+1.  **如有bug请在issue中以正确的提交形式提交（未以要求形式提交，将视情况进行删除或修改）** 
 2. Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
 3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
 4. [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
